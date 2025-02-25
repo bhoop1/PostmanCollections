@@ -1,0 +1,110 @@
+{
+	"id": "db7c7a4e-520d-4913-9592-2d4c8243ffdc",
+	"name": "Pcollections",
+	"timestamp": "2025-02-25T17:36:54.642Z",
+	"collection_id": "41951178-f5832ead-0d44-47b8-85de-ed85d39196ad",
+	"folder_id": 0,
+	"environment_id": "41951178-7546804e-20e3-4915-bda1-9901af90022b",
+	"totalPass": 0,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2025-02-25T17:36:52.493Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "121d545e-c87a-4f63-9614-7a3f3f50c863",
+			"name": "AllUsers",
+			"url": "https://reqres.in/api/users?page=2",
+			"time": 22,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				22
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "61b5b350-ea1f-4868-93be-d6151f5594ed",
+			"name": "Createuser",
+			"url": "https://reqres.in/api/users",
+			"time": 364,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				364
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "b0a8fc81-363f-43a6-b7ff-a17b75f4955c",
+			"name": "updateUser",
+			"url": "https://reqres.in/api/users/2",
+			"time": 351,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				351
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "98bfb6ff-8e17-4ba3-bee1-96132a6eb2ff",
+			"name": "DeleteUser",
+			"url": "https://reqres.in/api/users/2",
+			"time": 359,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				359
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1096,
+	"collection": {
+		"requests": [
+			{
+				"id": "121d545e-c87a-4f63-9614-7a3f3f50c863",
+				"method": "GET"
+			},
+			{
+				"id": "61b5b350-ea1f-4868-93be-d6151f5594ed",
+				"method": "POST"
+			},
+			{
+				"id": "b0a8fc81-363f-43a6-b7ff-a17b75f4955c",
+				"method": "PUT"
+			},
+			{
+				"id": "98bfb6ff-8e17-4ba3-bee1-96132a6eb2ff",
+				"method": "DELETE"
+			}
+		]
+	}
+}
